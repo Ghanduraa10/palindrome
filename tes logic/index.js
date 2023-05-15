@@ -5,11 +5,12 @@ function isPalindrome(word) {
     reversedWord += cleanWord[i];
   }
   return cleanWord === reversedWord;
-}
+};
 
 let word = "Main"
 if (isPalindrome(word)) {
   console.log(`"${word}" adalah palindrome `);
-} else {
+} 
+else {
   console.log(`"${word}" bukan palindrome `);
-}
+};
